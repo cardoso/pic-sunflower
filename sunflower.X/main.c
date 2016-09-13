@@ -1,7 +1,7 @@
 /*
- *  AntÙnio Matheus Martins Cardoso
- *  Jo„o Gabriel dos Santos GonÁalves
- *  Alan
+ *  Ant√¥nio Matheus Martins Cardoso
+ *  Jo√£o Gabriel dos Santos Gon√ßalves
+ *  Alan Rabelo Martins
  */
 
 #include <p18f4550.h>
