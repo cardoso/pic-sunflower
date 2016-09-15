@@ -17,9 +17,25 @@ void delay_beginSerial();
 
 void delay_1ms() {
     int count = 0;
-    while(count < 60) {
+    while(count < 53) {
         count++;
     }
+    _asm
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    _endasm
+
 }
 
 void delay_1ms2() {
