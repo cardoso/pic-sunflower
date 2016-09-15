@@ -1,10 +1,13 @@
 /*
- *  Ant√¥nio Matheus Martins Cardoso
- *  Jo√£o Gabriel dos Santos Gon√ßalves
+ *  AntÙnio Matheus Martins Cardoso
+ *  Jo„o Gabriel dos Santos GonÁalves
  *  Alan Rabelo Martins
+ * 
+ *  Main Program
  */
 
 #include <p18f4550.h>
+#include "servo.h"
 
 void setup();
 void loop();
@@ -19,10 +22,9 @@ void main() {
 }
 
 void setup() {
-    
-}
+    servo_setup();
+} 
 
 void loop() {
-    int test;
-    test = 0;
+
 }

@@ -19,6 +19,8 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
     <itemPath>main.c</itemPath>
+    <itemPath>servo.h</itemPath>
+    <itemPath>delay.h</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
