@@ -20,6 +20,7 @@
     </logicalFolder>
     <itemPath>main.c</itemPath>
     <itemPath>servo.h</itemPath>
+    <itemPath>serial.h</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>

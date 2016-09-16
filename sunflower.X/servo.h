@@ -24,7 +24,7 @@ void servo_handle_interruption() {
     unsigned char i = 0;
     
     // set timer to 20ms
-    TMR0L = 227;
+    TMR0L = 221;
     TMR0H = 21;
     
     // reset timer flag
@@ -61,13 +61,7 @@ void servo_handle_interruption() {
 void servo_high_level_interruption() {
     _asm goto servo_handle_interruption _endasm
 }
-
-void servo_degrees_delay() {
-    char i = 0;
-    while(i < servo_degrees) {
-        i++;
-    }
-}
+#pragma code
 
 void servo_setup() {
     TRISC = 0;
